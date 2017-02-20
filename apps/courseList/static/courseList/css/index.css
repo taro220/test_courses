@@ -1,0 +1,35 @@
+label{
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+}
+input{
+  display: inline-block;
+  width: 200px;
+}
+
+textarea{
+  width: 200px;
+  height: 100px;
+}
+
+.submit{
+  width: 50px;
+  margin-left: 250px;
+  background-color: green;
+  color: white;
+}
+
+table{
+  margin-top: 20px;
+  width: 700px;
+  border: 1px solid black;
+}
+
+table thead tr{
+  background-color: gray;
+}
+
+table td{
+  padding: 1px 5px;
+}
