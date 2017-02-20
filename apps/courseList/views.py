@@ -7,6 +7,6 @@ def index(request):
 
 def add(request):
     if request.method == "POST":
-        Course.objects.create(name = request.POST['name'], description = request.POST['description'])
-        print Course.objects.all()
+        # Course.objects.create(name = request.POST['name'], description = request.POST['description'])
+        # print Course.objects.all()
     return redirect('/')
